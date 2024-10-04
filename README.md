@@ -1,7 +1,3 @@
-<p align="center">
- <img height=200px src="./traffic-signal.jpg" alt="Traffic Signal Timer">
-</p>
-
 <h1 align="center">Re-engineered Traffic Signal Timer</h1>
 
 <div align="center">
