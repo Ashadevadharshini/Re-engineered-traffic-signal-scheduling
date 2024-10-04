@@ -30,23 +30,6 @@ This project can be broken down into 3 modules:
 3. `Simulation Module` - A simulation is developed from scratch by using an library to simulate traffic signals and vehicles moving across a traffic intersection.
 
 ------------------------------------------
-### Demo
-
-* `Vehicle Detection`
-
-<p align="center">
- <img height=400px src="./vehicle-detection.png" alt="Vehicle Detection">
-</p>
-
-<br> 
-
-* `Signal Switching Algorithm and Simulation`
-
-<p align="center">
-    <img src="./Demo.gif">
-</p>
-
-------------------------------------------
 ### Prerequisites
 
 1. [Java](https://www.java.com/en/download/)
