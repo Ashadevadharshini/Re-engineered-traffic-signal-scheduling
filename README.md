@@ -49,14 +49,13 @@ This project can be broken down into 3 modules:
 ------------------------------------------
 ### Prerequisites
 
-1. [Python 3.7](https://www.java.com/en/download/)
+1. [Java](https://www.java.com/en/download/)
 2. [Microsoft Visual C++ build tools](http://go.microsoft.com/fwlink/?LinkId=691126&fixForIE=.exe.) (For Windows only)
 
 ------------------------------------------
 ### Installation
 
 * Step I: Clone the Repository
-
 
 * Step II: Download the weights file 
 
@@ -69,13 +68,9 @@ This project can be broken down into 3 modules:
 
 * This project was showcased at a national level project competition.
 
-* Our paper based on this project was presented at 5th IEEE International Conference on Recent Advances and Innovations in Engineering - [ICRAIE 2020](http://www.icraie.poornima.org/) and published in IEEE Xplore. View the paper [here](https://ieeexplore.ieee.org/document/9358334).
+* Our paper based on this project was presented at 5th IEEE International Conference on Recent Advances and Innovations in Engineering and published in IEEE Xplore.
 
 ------------------------------------------
 ### Acknowledgement
 
 We would like to extend our sincere thanks to our mentors for the kind help and valuable advice. Their support and constant supervision were imperative for the successful completion of this project.  
-
-------------------------------------------
-### License
-This project is licensed under the Apache License 2.0 - see the [LICENSE](./LICENSE) file for details.
