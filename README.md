@@ -27,9 +27,7 @@ This project can be broken down into 3 modules:
 
 2. `Signal Switching Algorithm` - This algorithm updates the red, green, and yellow times of all signals. These timers are set bases on the count of vehicles of each class received from the vehicle detection module and several other factors such as the number of lanes, average speed of each class of vehicle, etc. 
 
-3. `Simulation Module` - A simulation is developed from scratch using [Pygame](https://www.pygame.org/news) library to simulate traffic signals and vehicles moving across a traffic intersection.
-
-Read more about object detection model used, working of the algorithm, and development of simulation [here](./Adaptive_Traffic_Signal_Timer_Implementation_Details.pdf).
+3. `Simulation Module` - A simulation is developed from scratch by using an library to simulate traffic signals and vehicles moving across a traffic intersection.
 
 ------------------------------------------
 ### Demo
@@ -51,56 +49,32 @@ Read more about object detection model used, working of the algorithm, and devel
 ------------------------------------------
 ### Prerequisites
 
-1. [Python 3.7](https://www.python.org/downloads/release/python-370/)
+1. [Python 3.7](https://www.java.com/en/download/)
 2. [Microsoft Visual C++ build tools](http://go.microsoft.com/fwlink/?LinkId=691126&fixForIE=.exe.) (For Windows only)
 
 ------------------------------------------
 ### Installation
 
 * Step I: Clone the Repository
-```sh
-      $ git clone https://github.com/mihir-m-gandhi/Adaptive-Traffic-Signal-Timer
-```
 
-* Step II: Download the weights file from [here](https://drive.google.com/file/d/1flTehMwmGg-PMEeQCsDS2VWRLGzV6Wdo/view?usp=sharing) and place it in the Adaptive-Traffic-Signal-Timer/Code/YOLO/darkflow/bin directory
+
+* Step II: Download the weights file 
 
 * Step III: Install the required packages
-```sh
-      # On the terminal, move into Adaptive-Traffic-Signal-Timer/Code/YOLO/darkflow directory
-      $ cd Adaptive-Traffic-Signal-Timer/Code/YOLO/darkflow
-      $ pip install -r requirements.txt
-      $ python setup.py build_ext --inplace
-```
 
 * Step IV: Run the code
-```sh
-      # To run vehicle detection
-      $ python vehicle_detection.py
-      
-      # To run simulation
-      $ python simulation.py
-```
 
 ------------------------------------------
 ### Dissemination
 
-* This project was showcased at a national level project competition organized by [Government Polytechnic Mumbai](http://www.gpmumbai.ac.in/). View our presentation video [here](https://youtu.be/OssY5pzOyo0).
+* This project was showcased at a national level project competition.
 
 * Our paper based on this project was presented at 5th IEEE International Conference on Recent Advances and Innovations in Engineering - [ICRAIE 2020](http://www.icraie.poornima.org/) and published in IEEE Xplore. View the paper [here](https://ieeexplore.ieee.org/document/9358334).
 
 ------------------------------------------
-### Contributors
-
-Mihir Gandhi - [mihir-m-gandhi](https://github.com/mihir-m-gandhi)
-
-Devansh Solanki - [devanshslnk](https://github.com/devanshslnk/)
-
-Rutwij Daptardar - [RDmaverick](https://github.com/RDmaverick)
-
-------------------------------------------
 ### Acknowledgement
 
-We would like to extend our sincere thanks to our mentor Mrs. Nirmala Shinde Baloorkar for her kind help and valuable advice. Her support and constant supervision were imperative for the successful completion of this project. We would also like to express our special gratitude and thanks to Mrs. Kavita Kelkar, the subject-matter expert for this project, for her valuable inputs and guidance.   
+We would like to extend our sincere thanks to our mentors for the kind help and valuable advice. Their support and constant supervision were imperative for the successful completion of this project.  
 
 ------------------------------------------
 ### License
